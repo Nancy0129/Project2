@@ -1,0 +1,23 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rss-site
+  labels:
+    app: web
+spec:
+  selector:
+    matchLabels:
+      app: web
+  template:
+    metadata:
+      labels:
+        app: web
+    spec:
+      containers:
+        - name: project2
+          image: quay.io/xinmeng_chen/project2
+          ports:
+            - containerPort: 5001
+
+
