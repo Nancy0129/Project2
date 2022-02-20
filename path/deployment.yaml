@@ -8,11 +8,11 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: web
+      app: project2
   template:
     metadata:
       labels:
-        app: web
+        app: project2
     spec:
       containers:
         - name: project2
