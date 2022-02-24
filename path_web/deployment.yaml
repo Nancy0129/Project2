@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
         - name: project2-web
-          image: quay.io/xinmeng_chen/project2_web:3d47d59
+          image: quay.io/xinmeng_chen/project2_web:0f5f699
           ports:
             - containerPort: 5001
